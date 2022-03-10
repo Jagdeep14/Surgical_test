@@ -289,8 +289,8 @@ wait_90_card = dbc.Card(
 # year slider
 yr_slider=html.Div([
         dcc.RangeSlider(
-            id="year_slider",min=2009, max=2022,
-            step=1, marks={i: f'{i}' for i in range(2009, 2023)},
+            id="year_slider",min=2015, max=2022,
+            step=1, marks={i: f'{i}' for i in range(2015, 2023)},
             value=[2017, 2022],
             vertical=True,
             verticalHeight=900
